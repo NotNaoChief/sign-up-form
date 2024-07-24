@@ -15,34 +15,48 @@
         <span>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></span>
     </section>
     <section class="right">
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
-        <span>You know you want to.</span>
-        <section>
+        <section class="info">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+            <span>You know you want to.</span>
+        </section>
+        <section class="forms">
             <h2>Let's do this!</h2>
             <form>
-                <div>
-                    <label for="fname">FIRST NAME</label>
-                    <input type="text" name="fname" id="fname">
-                    <label for="lname">LAST NAME</label>
-                    <input type="text" name="lname" id="lname">
+                <div class="row">
+                    <div class="sub-row">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" name="fname" id="fname">
+                    </div>
+                    <div class="sub-row">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" name="lname" id="lname">
+                    </div>
                 </div>
-                <div>
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" name="phone" id="phone">
+                <div class="row">
+                    <div class="sub-row">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="sub-row">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
                 </div>
-                <div>
-                    <label for="pwd">PASSWORD</label>
-                    <input type="password" name="pwd" id="pwd">
-                    <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirmPwd" id="confirm-pwd">
+                <div class="row">
+                    <div class="sub-row">
+                        <label for="pwd">*PASSWORD</label>
+                        <input type="password" name="pwd" id="pwd" required>
+                    </div>
+                    <div class="sub-row">
+                        <label for="confirm-pwd">*CONFIRM PASSWORD</label>
+                        <input type="password" name="confirmPwd" id="confirm-pwd" required>
+                    </div>
                 </div>
             </form>
         </section>
-        <section>
+        <sectio class="log-in">
             <button type="submit">Create Account</button>
-            <span class="log-in">Already have an account? <a href="">Log in</a></span>
+            <span>Already have an account? <a href="">Log in</a></span>
         </section>
     </section>
 </body>
